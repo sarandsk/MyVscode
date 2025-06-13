@@ -1,0 +1,48 @@
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>Bracket Indexing</h2>
+
+<p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+    let text1="List of Cars";
+//const cars = ["Saab", "Volvo", "BMW"];
+const cars=[];
+cars[0]="1.Saab<br>";
+cars[1] = "2.Opel<br>";
+cars[2]="3.BM<br>";
+let text2=2;
+text2="List of Bikes";
+const bikes=[];
+bikes[0]="Royal Enfield";
+bikes[1]="Honda";
+bikes[2]="Bajai";
+let text3=2;
+text3="List of Flowers";
+const flowers=[];
+flowers[0]="<br>Rose";
+flowers[1]="<br>Jasmine";
+flowers[2]="<br>Lily";
+flowers[3]="<br>Lotus";
+flowers[4]="<br>Hibiscus";
+
+//document.getElementById("demo").innerHTML = greeting;
+
+//document.getElementById("demo").innerHTML = 
+//document.g cars.join("<br>");
+document.getElementById("demo").innerHTML = ("<b>")+"List of Cars"+("</b>")+("<br><br>")+cars+("<br><br><br>")+("<b>")+"List of Bikes"+("</b>")+("<br><br>")+bikes;
+//document.getElementById("demo").innerHTML = cars.concat("<br>",bikes);
+
+
+
+document.getElementById("demo1").innerHTML = ("<br>")+("<b>")+"List of flowers"+("</b>")+flowers[0]+("<br>")+flowers[1]+("<br>")+flowers[2]+("<br>")+flowers[3]+("<br>")+flowers[4];
+//document.getElementById("demo1").innerHTML =flowers[0]+("<br>")+flowers[1]+("<br>")+flowers[2]+("<br>")+flowers[3]+("<br>")+flowers[4];
+
+
+</script>
+
+</body>
+</html>
